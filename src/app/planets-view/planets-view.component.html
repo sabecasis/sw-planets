@@ -1,0 +1,15 @@
+<div>
+   <header>
+       <img fxFlex.lt-sm="100vw" src="../../assets/image/start_wars_logo2.svg" class="logo">
+    </header>
+    <section>
+        <app-planet-table [planets]="getCurrentPlanets()" [maxLength]="getMaxLenght()"
+            (getNextPageEvent)="updatePlanets($event)"></app-planet-table>
+    </section>
+    <section>
+        <app-population-chart [planets]="getCurrentPlanets()"></app-population-chart>
+    </section>
+    <footer>
+        <app-footer></app-footer>
+    </footer>
+</div>

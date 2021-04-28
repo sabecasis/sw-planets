@@ -1,0 +1,7 @@
+<mat-card class="card">
+    <mat-card-title class="title">Population comparison for the current set of planets</mat-card-title>
+    <mat-card-content class="overflow-scroll-x">
+            <ngx-charts  *ngIf="data" [graficoOpciones]="customChartOptions" [type]="chartType" [data]="data" [options]="options"   #ppchart>
+            </ngx-charts>
+    </mat-card-content>
+</mat-card>

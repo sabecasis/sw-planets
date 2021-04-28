@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { environment } from 'src/environments/environment';
+import { environment } from '../../environments/environment';
 import { PlanetResponse } from '../data/planet-response-interface';
 import { PlanetsRequest } from '../data/planets-request-interface';
 import { GeneralService } from './general.service';

@@ -15,6 +15,7 @@ import { ChartsComponent } from './charts/charts.component';
 import { PopulationChartComponent } from './population-chart/population-chart.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FooterComponent } from './footer/footer.component';
+import { OrbitComparisonComponent } from './orbit-comparison/orbit-comparison.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FooterComponent } from './footer/footer.component';
     PopulationChartComponent,
     PopulationChartComponent,
     FooterComponent,
-    FooterComponent
+    FooterComponent,
+    OrbitComparisonComponent
   ],
   imports: [
     BrowserModule,

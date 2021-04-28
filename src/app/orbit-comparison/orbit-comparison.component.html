@@ -1,7 +1,7 @@
 <mat-card class="card">
     <mat-card-title class="title">orbit comparison in real time simulation</mat-card-title>
     <mat-card-content class="overflow-scroll-x">
-        <p>Considering 1 second equivalent to 1 standard day</p>
+        <p>Considering 50 milliseconds equivalent to 1 standard day</p>
         <ngx-charts  *ngIf="data" [graficoOpciones]="customChartOptions" [type]="chartType" [data]="data" [options]="options"   #ppchart>
         </ngx-charts>
     </mat-card-content>

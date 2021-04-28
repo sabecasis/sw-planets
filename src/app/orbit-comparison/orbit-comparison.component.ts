@@ -83,8 +83,10 @@ export class OrbitComparisonComponent implements  OnChanges, AfterViewInit {
               },
               max: 9,
               min: 0,
-              stepSize: 1
-            }
+              stepSize: 1,
+              fontColor:"#ffffff"
+            },
+            
           },
         ],
         yAxes: [
